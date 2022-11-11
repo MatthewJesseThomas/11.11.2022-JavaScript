@@ -72,8 +72,82 @@
 // }
 // addition(8, 2);
 // addition(11, 13);
+// =========================================================
+//Nested-If-Statements//
+// let age = 18;
+// let salary = 5000;
+// if(age > 17) {
+//     if(salary >= 5000) {
+//         document.write("You are qualified");
+//     }else {
+//         document.write("Present your second payslip");
+//     }
+// }else {
+//     document.write("You are not qualified");
+// }
+// =========================================================
+//Best-Approach//
+// if((age > 17) && (salary >= 5000)) {
+//     document.write("Your are qualified");
+// }else {
+//     document.write("You are not qualified");
+// }
+// =========================================================
+//Switch-Statements//
+// let marks = 100;
+// switch(marks) {
+//     case 100:
+//     case 95:
+//         document.write("Grade A");
+//     break;
+//     case 91:
+//     case 90:
+//     case 87:
+//         document.write("Grade B");
+//     break;
+//     case 50:
+//         document.write("passed");
+//     break;
+//     case 49:
+//         document.write("Failed");
+//     break;
+//     default:
+//         document.write("ERROR404 Not Found!");
 
-
+// }
+// =========================================================
+//Challenge-2//
+// let marks = parseInt(prompt("Enter Marks"));
+//     switch(true) {
+//         case marks> 90:
+//             document.write("You're Awesome");
+//         break;
+//         case marks> 70: 
+//             document.write("Distinction");
+//         break;
+//         case marks> 50: 
+//             document.write("Passed");
+//         break;
+//         case marks <= 49: 
+//         document.write("Failed");
+//         break;
+//         default: document.write('sum ting wong')
+//     }
+// =========================================================
+/*Different loop in JS:
+- for
+- for in: Loop through object's properties
+- for of: Loop through the values 
+- while
+- do while
+*/
+for(let i = 0; i<10; i++) {
+    if (i % 2 == 0){
+        console.log(i);
+    }
+}
+// =========================================================
+//Break and Continue//
 
 
 
