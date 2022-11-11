@@ -141,14 +141,58 @@
 - while
 - do while
 */
-for(let i = 0; i<10; i++) {
-    if (i % 2 == 0){
-        console.log(i);
-    }
-}
-// =========================================================
+// for(let i = 0; i<10; i++) {
+    // if (i % 2 == 0){
+    // console.log(i);
+    // }
+    // if(i == 5) break;
+//     if(i == 4) continue;
+//     console.log(i);
+// }
 //Break and Continue//
-
-
-
+// =========================================================
+//For-In
+// let person = {
+//     name: 'Samiel',
+//     surname: 'Amen',
+//     subject:['Divination', 'Necromancy',
+//             'HolyHealing', 'Angelic-Wrath'],
+//     address: {
+//         streetName: 'Purgatory Dr',
+//         country: 'Hell',
+//         complexName: 'Avernos',
+//     }
+// }
+// for(let data in person){
+//     if (data != 'address')
+//     console.log(`${data}: ${person[data]}`)
+// } 
+// console.log(person.address)
+// console.log(
+//     `
+//     Name: ${person.name}
+//     Surname:${person.surname}
+//     Street Name:${person.address.streetName}
+//     `
+// )
+// =========================================================
+//For-Of//
+let numbers = [9, 7, 4, 34, 8];
+// for(let number of numbers) {
+//         console.log(number);
+// }
+// for(let i =0; i<numbers.length; i++) {
+//     console.log(numbers[i]);
+// } 
+// =========================================================
+//While-Loop//
+let cnt = 0;
+while(true) {
+    if(cnt < numbers.length){
+        console.log(numbers[cnt]);
+    }else{
+        break;
+    }
+    cnt++;
+}
 
