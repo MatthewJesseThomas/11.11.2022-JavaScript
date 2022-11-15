@@ -234,7 +234,7 @@
 // let userID = parseInt(prompt("Please Enter UserID:")); 
 // let iDs = [12345678900, 12345678901, 12345678902, 12345678903];
 // let names = ['Matthew', 'John', 'Camryn', 'Faeez', 'Daniel', 'Lazola'];
-// let emails = ['matt@email.com','john12@email.com','camryn0000@email.com','fa33z@email.com','dan13l@email.com','laz@email.com'];
+// let emails = ['matt@Corpmail.com','john12@Corpmail.com','camryn0000@Corpmail.com','fa33z@Corpmail.com','dan13l@Corpmail.com','laz@Corpmail.com'];
 
 // function checkCredentials(name, email, userName, userID) {
 //     if(userName && (userID.include) && (email == emails[0, 1, 2, 3, 4, 5]) && firstName == names[0, 1, 2, 3, 4, 5]){
