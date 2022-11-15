@@ -177,7 +177,7 @@
 // )
 // =========================================================
 //For-Of//
-let numbers = [9, 7, 4, 34, 8];
+// let numbers = [9, 7, 4, 34, 8];
 // for(let number of numbers) {
 //         console.log(number);
 // }
@@ -186,13 +186,33 @@ let numbers = [9, 7, 4, 34, 8];
 // } 
 // =========================================================
 //While-Loop//
-let cnt = 0;
-while(true) {
-    if(cnt < numbers.length){
-        console.log(numbers[cnt]);
-    }else{
-        break;
-    }
-    cnt++;
-}
-
+// let cnt = 0;
+// while(true) {
+//     if(cnt < numbers.length){
+//         console.log(numbers[cnt]);
+//     }else{
+//         break;
+//     }
+//     cnt++;
+// }
+// =========================================================
+//Factory-Function//
+//It Is A Function that returns an Object, an there is no need to use a new keyword when attempting to create an instance.//
+// function userDetails(firstName, surname, age) {
+//     return {
+//         firstName: firstName,
+//         surname: surname,
+//         age: age,
+//         display: function() {
+//             console.log(`Name:${firstName}\nSurname:${surname}\nAge:${age}`);
+//         }
+//     }
+// }
+//Create an Instance//
+// let person1 = userDetails('Joel','Mukanya');
+// person1.firstName = "Tshimanga";
+// person1.display();
+// console.log("===================");
+// const person2 = userDetails('Oslin', 'Johnson');
+// person2.display();
+// =========================================================
