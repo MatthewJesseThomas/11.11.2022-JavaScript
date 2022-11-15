@@ -216,3 +216,32 @@
 // const person2 = userDetails('Oslin', 'Johnson');
 // person2.display();
 // =========================================================
+//Constructor-Function//
+//-Allows the Use of the "this." to work on a constructor-function,to return the object.//
+//Example-1//
+// function personDetails(name, surname) {
+//     this.name = name;
+//     this.surname = surname;
+// }
+// let person1 = new personDetails('Joel','Mukanya');
+//
+// console.log(`Name:${person1.name}\nSurname:${person1.surname}`)
+// =========================================================
+//JavaScript-Thus-Far//
+// let firstName = prompt("Enter FirstName:");
+// let email = prompt("Please Enter Email:");
+// let userName = prompt("Please Enter UserName:");
+// let userID = parseInt(prompt("Please Enter UserID:")); 
+// let iDs = [12345678900, 12345678901, 12345678902, 12345678903];
+// let names = ['Matthew', 'John', 'Camryn', 'Faeez', 'Daniel', 'Lazola'];
+// let emails = ['matt@email.com','john12@email.com','camryn0000@email.com','fa33z@email.com','dan13l@email.com','laz@email.com'];
+
+// function checkCredentials(name, email, userName, userID) {
+//     if(userName && (userID.include) && (email == emails[0, 1, 2, 3, 4, 5]) && firstName == names[0, 1, 2, 3, 4, 5]){
+//         document.write('Access Granted');
+//     }else {
+//         document.write('Access Denied');
+//     }
+// }
+// checkCredentials(name, email, userName, userID);
+// =========================================================
