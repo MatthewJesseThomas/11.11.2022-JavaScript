@@ -1,0 +1,35 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(12, 46, 110);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #f1b1b1 , #82e6e8);
+}
+.row button {
+    font-size: 1.5rem;
+}
+footer {
+    position: sticky;
+    margin-top: 10rem;
+}
+
+@media (width <=900px) {
+    .form .btn {
+        width: 100%;
+    } 
+}
