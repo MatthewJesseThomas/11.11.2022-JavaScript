@@ -1,10 +1,8 @@
 // Page //
 // Get reference of #btnRegister
-let register = document.querySelector('#btnRegister');
+let register = document.querySelector('#btnSignUp');
 // Display button
 let display = document.querySelector('#btnDisplay');
-// Delete button
-let btnDelete = document.querySelector('#btnDelete');
 // Create an empty array
 let details = [];
 // Add event listener
@@ -37,13 +35,10 @@ display.addEventListener('click', ()=> {
     if(results.length) {
         console.table(results);
     }else {
-        console.log("No data was found");
+        console.log("Invalid Request");
     }
 })
-// Delete button
-btnDelete.addEventListener('click', ()=>{
-    localStorage.removeItem('userDetails');
-})
+
 // Fields //
 // let firstName = prompt("Enter FirstName:");
 // let email = prompt("Please Enter Email:");
